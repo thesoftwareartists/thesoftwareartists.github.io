@@ -1,7 +1,148 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic,900">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+	<link rel="stylesheet" href="style/screen.css">
+</head>
+
+
+<body class="wrap">
+<header>
+	<nav class="mobile-nav show-on-mobiles">
+		<ul>
+			<li class="current">
+				<a href="https://thesoftwareartists.github.io/">Home</a>
+			</li>
+			<li class="">
+				<a href="404.html">Blog</a>
+			</li>
+			<li class="">
+				<a href="404.html">Game</a>
+			</li>
+			<li class="">
+				<a href="404.html">Contact</a>
+			</li>
+			<li class="">
+				<a href="404.html">About Me</a>
+			</li>
+		</ul>
+	</nav>
+
+	<div class="grid">
+		<div class="unit one-third center-on-mobiles">
+			<h1>
+				<a href="https://thesoftwareartists.github.io/">
+				<span class="sr-only">The Software Artists</span>
+				<img src="src/artist_icon.png" width="100" height="60" alt="Page Logo">
+				</a>
+			</h1>		
+		</div>
+		<nav class="main-nav unit two-thirds hide-on-mobiles">
+		<div id="menu">
+			<ul>
+				<li class="current">
+					<a href="https://thesoftwareartists.github.io/">Home</a>
+				</li>
+				<li class="">
+					<a href="404.html">Blog</a>
+				</li>
+				<li class="">
+					<a href="404.html">Game</a>
+				</li>
+				<li class="">
+					<a href="404.html">Contact</a>
+				</li>
+				<li class="">
+					<a href="404.html">About Me</a>
+				</li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+</header>
+
+<section class="intro">
+	<div class="grid">
+		<div class="unit whole center-on-mobiles">
+			<p class="first">Don't be a Software Engineer, be a Software Artist.</p>
+		</div>
+	</div>
+</section>
+
+<section class="features">
+	<div class="grid">
+		<div class="unit one-third">
+			<h2>Simple</h2>
+			<p>
+			No more databases, comment moderation, or pesky updates to install—just <em>your content</em>.
+			</p>
+			<a href="https://jekyllrb.com/docs/usage/">How Jekyll works →</a>
+		</div>
+		<div class="unit one-third">
+			<h2>Static</h2>
+			<p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> (or <a href="http://redcloth.org/textile">Textile</a>), <a href="https://github.com/Shopify/liquid/wiki">Liquid</a>, HTML <span class="amp">&amp;</span> CSS go in. Static sites come out ready for deployment.</p>
+			<a href="https://jekyllrb.com/docs/templates/">Jekyll template guide →</a>
+		</div>
+		<div class="unit one-third">
+		<h2>Blog-aware</h2>
+			<p>
+			Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
+			</p>
+			<a href="http://import.jekyllrb.com/">Migrate your blog →</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</section>
+
+<!-- <footer id="footer">
+	<div class="grid">
+		<div class="unit one-third center-on-mobiles">
+			<p>The contents of this website are ©&nbsp;2017 under the terms of the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+		</div>
+		<div class="unit two-thirds align-right center-on-mobiles">
+			<p>
+			<a href="404.html">For administrator&nbsp;</a>
+			</p>
+		</div>
+	</div>
+</footer> -->
+
+<!-- <script>
+	var anchorForId = function (id) {
+		var anchor = document.createElement("a");
+		anchor.className = "header-link";
+		anchor.href      = "#" + id;
+		anchor.innerHTML = "<span class=\"sr-only\">Permalink</span><i class=\"fa fa-link\"></i>";
+		anchor.title = "Permalink";
+		return anchor;
+	};
+
+	var linkifyAnchors = function (level, containingElement) {
+		var headers = containingElement.getElementsByTagName("h" + level);
+		for (var h = 0; h < headers.length; h++) {
+			var header = headers[h];
+			if (typeof header.id !== "undefined" && header.id !== "") {
+				header.appendChild(anchorForId(header.id));
+			}
+		}
+	};
+
+	document.onreadystatechange = function () {
+		if (this.readyState === "complete") {
+			var contentBlock = document.getElementsByClassName("docs")[0] || document.getElementsByClassName("news")[0];
+			if (!contentBlock) {
+				return;
+			}
+			for (var level = 1; level <= 6; level++) {
+				linkifyAnchors(level, contentBlock);
+			}
+		}
+	};
+</script> -->
+
 </body>
 </html>
