@@ -1,6 +1,8 @@
 /* MIT License */
 html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 body{margin:0}
+p{text-align:justify;text-justify:inter-word;}
+explanation{padding-left: 20px;padding-bottom: 10px;padding-top: 10px;padding-right: 10px;}
 article,aside,footer,header,nav,section{display:block}
 #footer{position:fixed;bottom:0}
 #menu{float:right}
